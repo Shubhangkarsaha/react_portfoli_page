@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding :0;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-image: url('bg5.jpg');
+  text-align: left;
+  font-style: italic;
+  color: #fff;
+  padding: 20px;
+  border: solid brown 5px;
+  border-radius: 10px;
+}
+
+img {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+header h1 {
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  margin-left: 40px;
+}
+
+header h2 {
+  text-align: right;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 70px;
+  margin-right: 90px;
+  margin-bottom: 30px;
+}
+
+header ul {
+  background-color: rgba(221, 228, 235, 0.536);
+  text-align: right;
+  font-style: oblique;
+  color: #fff;
+}
+
+header ul li {
+  font-size: medium;
+  
+}
+
+nav ul {
+  list-style-type: square;
+  padding: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.container {
+  border: 5px solid black;
+  margin: 2px;
+  padding: 2px;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+aside {
+  background-color: sandybrown;
+  padding: 20px;
+  width: 20%;
+}
+
+aside ul h2 {
+  text-align: center;
+}
+
+aside ul li {
+  margin: 20px;
+}
+
+main {
+  flex-direction: column;
+  padding: 20px;
+  background-color: skyblue;
+  width: 100%;
+}
+
+main article h2 {
+  margin: 10px;
+  margin-bottom: 15px;
+}
+main article pre {
+  margin: 10px;
+  margin-bottom: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media-links a {
+  color: #fff;
+  margin-right: 10px;
+}
